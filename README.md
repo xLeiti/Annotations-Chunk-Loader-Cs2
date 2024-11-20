@@ -9,7 +9,7 @@ exec chunk_loader/main
 
 ## Usuage
 
-press "i" to printout your current chunk
+press "i" to print out your current chunk
 press "o" to start/stop the chunk-loader
 
 Save you annotations under annotations/chunk/<chunk_name>
