@@ -4,6 +4,7 @@ The chunkloader splits up the level in 500x500 chunks. For the current chunk you
 
 ## Setup:
 Throw the chunk_loader folder with all its content into game\csgo\cfg
+
 exec chunk_loader/main
 
 ## Usuage
@@ -15,4 +16,5 @@ Save you annotations under annotations/chunk/<chunk_name>
 
 ### Debug Mode: 
 Automatically prints out your current chunk when you enter a new chunk.
+
 chunk_debug_mode 1 
