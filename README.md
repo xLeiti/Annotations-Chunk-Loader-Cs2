@@ -18,3 +18,9 @@ Save you annotations under annotations/chunk/<chunk_name>
 Automatically prints out your current chunk when you enter a new chunk.
 
 chunk_debug_mode 1 
+
+##ToDo
+- Simplify & Cleanup unnecessary files
+- rework mapping chunks to annotation files:
+  goal: annotations/chunk/<mapname>/<x y>
+  skipping ugly alias loop
