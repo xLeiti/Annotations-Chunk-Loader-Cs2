@@ -7,7 +7,7 @@ Throw the chunk_loader folder with all its content into game\csgo\cfg
 
 ```exec chunk_loader/main```
 
-## Usuage
+## Usage
 
 press "i" to print out your current chunk
 press "o" to start/stop the chunk-loader
@@ -21,7 +21,7 @@ Automatically prints out your current chunk when you enter a new chunk.
 
 ## ToDo
 - Simplify & Cleanup unnecessary files
-- rework mapping chunks to annotation files:
+- Rework mapping chunks to annotation files:
   goal = ```annotations/chunk/<mapname>/<x y>```
   skipping ugly alias loop
 - Add my automatic map detection
