@@ -19,9 +19,10 @@ Automatically prints out your current chunk when you enter a new chunk.
 
 ```chunk_debug_mode 1 ```
 
-##ToDo
+## ToDo
 - Simplify & Cleanup unnecessary files
 - rework mapping chunks to annotation files:
   goal = ```annotations/chunk/<mapname>/<x y>```
   skipping ugly alias loop
 - Add my automatic map detection
+- Make it scalable (currently it's limited to a 6000x6000 area)
