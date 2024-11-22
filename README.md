@@ -10,9 +10,15 @@ Throw the chunk_loader folder with all its content into game\csgo\cfg
 ## Usage
 
 press "i" to print out your current chunk
+
 press "o" to start/stop the chunk-loader
 
 Save you annotations under annotations/chunk/<chunk_name>
+
+Some maps are off centre, you can specify the offset at ```chunk_loader/main``` 
+```alias origin_offset_x "incrementvar joy_axisx_deadzone -999999999 999999999 <offset>```
+```alias origin_offset_y "incrementvar joy_axisx_deadzone -999999999 999999999 <offset>```
+Please use 500 unit steps as offset values.
 
 ### Debug Mode: 
 Automatically prints out your current chunk when you enter a new chunk.
