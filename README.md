@@ -35,7 +35,7 @@ Non supported maps are linked to the default path  ```annotations/chunk/default/
 
 If you want to add support to more maps, copy one of the map.cfg in ```chunk_loader/maps```, rename it to your desired map, adjust the names in the file. 
 Then add an alias under the map-section in ```chunk_loader/main```. If the map is off centre, you need to define x/y-offset values here. 
-Make sure non of the is "OutOfBounds"!
+Make sure non of the map is "OutOfBounds"!
 
 
 ## ToDo
