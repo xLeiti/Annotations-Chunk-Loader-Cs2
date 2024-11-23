@@ -7,7 +7,7 @@ Throw the chunk_loader folder with all its content into game\csgo\cfg
 
 ```exec chunk_loader/main```
 
-## Usage
+## Usage:
 
 press "i" to print out your current chunk (or the file-path for your current chunk if ```chunk_debug_mode 1 ```)
 
@@ -27,7 +27,7 @@ Print out the file instead of the chunk when pressing "i"
 
 ```chunk_debug_mode 1 ```
 
-### Maps support
+### Maps support:
 
 Currently the ChunkLoader supports the maps ```de_ancient, de_anubis, de_dust2, de_inferno, de_mirage, de_nuke, de_overpass, de_train, de_vertigo```
 
@@ -38,5 +38,5 @@ Then add an alias under the map-section in ```chunk_loader/main```. If the map i
 Make sure non of the map is "OutOfBounds"!
 
 
-## ToDo
+## ToDo:
 - Find new console tricks to make simplify the ChunkLoader and make it scalable! 
