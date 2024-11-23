@@ -17,7 +17,7 @@ The ChunkLoader automatically detects the map you're playing on, when you start 
 
 Note, if you change your level, you need to toggle the ChunkLoader off and on again to trigger the detection!
 
-Save you annotations under ```annotations/chunk/<map_name>/<chunk_name>```
+Save your annotations under ```annotations/chunk/<map_name>/<chunk_name>```
 
 
 ### Debug Mode: 
