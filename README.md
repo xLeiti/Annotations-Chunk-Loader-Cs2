@@ -33,7 +33,7 @@ Currently the ChunkLoader supports the maps ```de_ancient, de_anubis, de_dust2, 
 
 Non supported maps are linked to the default path  ```annotations/chunk/default/<chunk_name>``` and have no origin offset configured.
 
-If you want to add support to more maps, copy one of the map.cfg in ```chunk_loader```, rename it to your desired map, adjust the names in the file. 
+If you want to add support to more maps, copy one of the map.cfg in ```chunk_loader/maps```, rename it to your desired map, adjust the names in the file. 
 Then add an alias under the map-section in ```chunk_loader/main```. If the map is off centre, you need to define x/y-offset values here. 
 Make sure non of the is "OutOfBounds"!
 
