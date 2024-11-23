@@ -9,29 +9,34 @@ Throw the chunk_loader folder with all its content into game\csgo\cfg
 
 ## Usage
 
-press "i" to print out your current chunk
+press "i" to print out your current chunk (or the file-path for your current chunk if ```chunk_debug_mode 1 ```)
 
 press "o" to start/stop the chunk-loader
 
-Save you annotations under annotations/chunk/<chunk_name>
+The ChunkLoader automatically detects the map you're playing on, when you start the ChunkLoader by pressing "o" (or if you press "i".)
 
-Some maps are off centre, you can specify the offset at ```chunk_loader/main``` 
+Note, if you change your level, you need to toggle the ChunkLoader off and on again to trigger the detection!
 
-```alias origin_offset_x "incrementvar joy_axisx_deadzone -999999999 999999999 <offset>```
+Save you annotations under ```annotations/chunk/<map_name>/<chunk_name>```
 
-```alias origin_offset_y "incrementvar joy_axisx_deadzone -999999999 999999999 <offset>```
-
-Please use 500 unit steps as offset values.
 
 ### Debug Mode: 
 Automatically prints out your current chunk when you enter a new chunk.
 
+Print out the file instead of the chunk when pressing "i"
+
 ```chunk_debug_mode 1 ```
 
+### Maps support
+
+Currently the ChunkLoader supports the maps ```de_ancient, de_anubis, de_dust2, de_inferno, de_mirage, de_nuke, de_overpass, de_train, de_vertigo```
+
+Non supported maps are linked to the default path  ```annotations/chunk/default/<chunk_name>``` and have no origin offset configured.
+
+If you want to add support to more maps, copy one of the map.cfg in ```chunk_loader```, rename it to your desired map, adjust the names in the file. 
+Then add an alias under the map-section in ```chunk_loader/main```. If the map is off centre, you need to define x/y-offset values here. 
+Make sure non of the is "OutOfBounds"!
+
+
 ## ToDo
-- Simplify & Cleanup unnecessary files
-- Rework mapping chunks to annotation files:
-  goal = ```annotations/chunk/<mapname>/<x y>```
-  skipping ugly alias loop
-- Add my automatic map detection
-- Make it scalable (currently it's limited to a 6000x6000 area)
+- Find new console tricks to make simplify the ChunkLoader and make it scalable! 
