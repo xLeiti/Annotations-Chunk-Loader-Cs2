@@ -39,4 +39,4 @@ Make sure non of the map is "OutOfBounds"!
 
 
 ## ToDo:
-- Find new console tricks to make simplify the ChunkLoader and make it scalable! 
+- Find new console tricks to simplify the ChunkLoader and make it scalable
