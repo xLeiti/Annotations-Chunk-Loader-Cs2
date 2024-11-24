@@ -2,6 +2,17 @@
 A counterstrike .cfg-framework to dynamically load annotations-files. (bypass the 100 node limit)
 The chunkloader splits up the level in 500x500 chunks. For the current chunk you are in and the 8 bordering chunks the annotations files get loaded. (So a 1500x1500 unit area is loaded)
 
+The chunks get laoded/relaoded when 
+
+a) you enter a new Chunk
+
+b) your viewing direction changes (north, northWest, west, southWest, south, southEast, east, northEast)
+
+Direction based Chunk appending order for the bordering chunks:
+![Screenshot 2024-11-24 144428](https://github.com/user-attachments/assets/12c0f40f-02bf-4bff-8ff4-101d684d3ffe)
+
+![Screenshot 2024-11-24 144402](https://github.com/user-attachments/assets/ed07d18d-8b85-402d-9d8a-e28ac24af19d)
+
 ## Setup:
 Throw the chunk_loader folder with all its content into game\csgo\cfg
 
@@ -22,10 +33,14 @@ Save your annotations under ```annotations/chunk/<map_name>/<chunk_name>```
 
 ### Debug Mode: 
 Automatically prints out your current chunk when you enter a new chunk.
+Shows the direction you are facing as an hud_hint.
 
 Print out the file instead of the chunk when pressing "i"
 
 ```chunk_debug_mode 1 ```
+
+![20241124164324_1](https://github.com/user-attachments/assets/9d276206-75e3-4f2f-839d-8891e398899b)
+
 
 ### Maps support:
 
