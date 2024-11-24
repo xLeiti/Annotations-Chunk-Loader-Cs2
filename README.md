@@ -2,7 +2,7 @@
 A counterstrike .cfg-framework to dynamically load annotations-files. (bypass the 100 node limit)
 The chunkloader splits up the level in 500x500 chunks. For the current chunk you are in and the 8 bordering chunks the annotations files get loaded. (So a 1500x1500 unit area is loaded)
 
-The chunks get laoded/relaoded when 
+The chunks get laoded/reloaded when..
 
 a) you enter a new Chunk
 
