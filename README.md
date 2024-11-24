@@ -9,7 +9,7 @@ a) you enter a new Chunk
 b) your viewing direction changes (north, northWest, west, southWest, south, southEast, east, northEast)
 
 Direction based Chunk appending order for the bordering chunks:
-![Screenshot 2024-11-24 144428](https://github.com/user-attachments/assets/12c0f40f-02bf-4bff-8ff4-101d684d3ffe)
+![Screenshot 2024-11-24 170417](https://github.com/user-attachments/assets/aec4469e-2276-4b95-baac-228e1075c322)
 
 ![Screenshot 2024-11-24 144402](https://github.com/user-attachments/assets/ed07d18d-8b85-402d-9d8a-e28ac24af19d)
 
