@@ -41,8 +41,9 @@ You can adjust your configuration and binds in ```chunk_loader/main```
 
 
 ### Binds
-```bind o chunk_toggle; ```: Toggle the ChunkLoader On/Off
-```bind i getChunk; ```: Print out your current chunk (or the chunkFile when in debugMode)
+```bind o chunk_toggle; ```- Toggle the ChunkLoader On/Off
+
+```bind i getChunk; ```- Print out your current chunk (or the chunkFile when in debugMode)
 
 
 ### Maps support:
