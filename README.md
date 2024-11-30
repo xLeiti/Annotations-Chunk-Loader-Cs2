@@ -1,6 +1,6 @@
 # Annotations-Chunk-Loader-Cs2
 A counterstrike .cfg-framework to dynamically load annotations-files. (bypass the ~~100~~ 300 node limit)
-The chunkloader splits up the level in 500x500 chunks. For the current chunk you are in and the 8 bordering chunks the annotations files get loaded. (So up to a 1500x1500 unit area is loaded)
+The chunkloader splits up the level in 1500x1500 chunks. For the current chunk you are in and the 8 bordering chunks the annotations files get loaded. (So up to a 4500x4500 unit area is loaded)
 
 ## Setup:
 Throw the chunk_loader folder with all its content into ```game\csgo\cfg```
@@ -62,7 +62,7 @@ Non supported maps are linked to the default path  ```annotations/chunk/default/
    toggle grepMap cmd , mapCbble
    grepMap | toggle "cmd;"
    ```
-4. Add an alias under the map-section in ```chunk_loader/main```. If the map is off centre, you need to define x/y-offset values here.
+4. Add an alias under the map-section in ```chunk_loader/main```. 
 
    Make sure non of the map is "OutOfBounds"!
 
