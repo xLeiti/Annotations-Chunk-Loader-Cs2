@@ -1,6 +1,6 @@
 # Annotations-Chunk-Loader-Cs2
 A counterstrike .cfg-framework to dynamically load annotations-files. (bypass the ~~100~~ 300 node limit)
-The chunkloader splits up the level in 500x500 chunks. For the current chunk you are in and the 8 bordering chunks the annotations files get loaded. (So up to a 1500x1500 unit area is loaded)
+The chunkloader splits up the level in 1000x1000 chunks. For the current chunk you are in and the 8 bordering chunks the annotations files get loaded. (So up to a 3000x3000 unit area is loaded)
 
 ## Setup:
 Throw the chunk_loader folder with all its content into ```game\csgo\cfg```
@@ -31,7 +31,7 @@ You can adjust your configuration and binds in ```chunk_loader/main```
 
 0 - non directional chunk loading: chunks only refresh when you enter a new chunk. Appending priority of boarding chunks: first edges then corners
 
-1 - direction based chunk loading: chunks refresh when you enter a new chunk or when your viewing direction changes.
+1 - direction based chunk loading: chunks refresh when you enter a new chunk or when your viewing direction changes. ⚠️ currently not supported ⚠️ 
 
    Directions: ```north, northWest, west, southWest, south, southEast, east, northEast```
 
